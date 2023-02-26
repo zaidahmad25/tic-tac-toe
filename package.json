@@ -1,0 +1,21 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./css/output.css",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaidahmad25/tic-tac-toe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaidahmad25/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/zaidahmad25/tic-tac-toe#readme"
+}

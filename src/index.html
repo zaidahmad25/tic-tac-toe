@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="../css/output.css">
+</head>
+
+<body class="flex flex-col min-h-screen">
+
+    <header class="text-center bg-slate-900 font-semibold text-4xl p-5 text-white">
+        <h1>Tic-Tac-Toe</h1>
+    </header>
+
+    <div class="full w-full flex flex-col justify-center items-center gap-5 pt-10 mt-20">
+
+        <div class="score-board flex justify-between w-64 text-xl">
+            <div class="player flex flex-col items-center gap-1">
+                <h2 class="font-semibold">Player</h2>
+                <p class="text-xl" id="playerScore">0</p>
+            </div>
+
+            <div class="computer flex flex-col items-center gap-1">
+                <h2 class="font-semibold">Computer</h2>
+                <p class="text-xl" id="computerScore">0</p>
+            </div>
+        </div>
+
+        <div class="container flex justify-center items-center">
+            <div class="board grid grid-cols-3 grid-rows-3 w-64 text-center">
+                <div class="box flex flex-col justify-center h-16 text-4xl border-2"></div>
+
+                <div class="box flex flex-col justify-center h-16 text-4xl border-2"></div>
+
+                <div class="box flex flex-col justify-center h-16 text-4xl border-2"></div>
+
+                <div class="box flex flex-col justify-center h-16 text-4xl border-2"></div>
+
+                <div class="box flex flex-col justify-center h-16 text-4xl border-2"></div>
+
+                <div class="box flex flex-col justify-center h-16 text-4xl border-2"></div>
+
+                <div class="box flex flex-col justify-center h-16 text-4xl border-2"></div>
+
+                <div class="box flex flex-col justify-center h-16 text-4xl border-2"></div>
+
+                <div class="box flex flex-col justify-center h-16 text-4xl border-2"></div>
+            </div>
+        </div>
+
+        <div class="button flex flex-col">
+            <button
+                class="start w-64 bg-violet-700 rounded-md text-center text-lg text-white h-10 font-bold cursor-pointer">Start</button>
+            <button
+                class="reset w-64 bg-violet-400 rounded-md text-center text-lg text-white h-10 font-bold cursor-pointer mt-2">Reset</button>
+        </div>
+    </div>
+
+    <footer class=" flex items-center justify-center h-14 mt-auto">
+        <p>&#169; Copyright 2023 |</p>
+        <a href="https://github.com/zaidahmad25" target="_blank" class="underline italic">Zaid Ahmad</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
